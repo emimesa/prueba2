@@ -3,7 +3,7 @@
     Nombre:
     <input type="text" formControlName="nombre" required />
     <span *ngIf="this.formularioContacto.get('nombre').errors?.required">
-      (El nombre no puede quedar vacío)
+      (El nombre no puede quedar vacio)
     </span>
     <span *ngIf="this.formularioContacto.get('nombre').errors?.minlength">
       (Debe tener como mínimo 10 caracteres)
